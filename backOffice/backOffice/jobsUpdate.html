@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/public/CSS/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form>
+
+            <div class="mb-3">
+                <label for="id" class="form-label">id</label>
+                <input type="text" class="form-control" id="id" value="2354354" disabled>
+            </div>
+
+            <div class="mb-3">
+                <label for="companyId" class="form-label">companyId</label>
+                <input type="text" class="form-control" id="companyId" value="data.companyId">
+            </div>
+
+            <div class="mb-3">
+                <label for="title" class="form-label">title</label>
+                <input type="text" class="form-control" id="title" value="data.title">
+            </div>
+
+            <div class="mb-3">
+                <label for="content" class="form-label">content</label>
+                <textarea class="form-control" id="content">data.content</textarea>
+            </div>
+
+            <div class="mb-3">
+              <label for="rank" class="form-label">rank</label>
+              <input type="number" class="form-control" id="rank" value="3">
+            </div>
+
+            <div class="mb-3">
+              <label for="wage" class="form-label">wage</label>
+              <input type="text" class="form-control" id="wage" value="data.wage">
+            </div>
+
+            <div class="mb-3">
+                <label for="workingTime" class="form-label">workingTime</label>
+                <input type="text" class="form-control" id="workingTime" value="data.workingTime">
+            </div>
+
+            <button type="submit" class="btn btn-primary" onclick="getData()">Update</button>
+          </form>
+
+    </div>
+
+    <script type="text/javascript">
+
+    let queryString = window.location.search;
+    let urlParams = new URLSearchParams(queryString);
+    let id = urlParams.get('id')
+
+        const getData = () =>{
+
+            let inputdata = Array.from(document.querySelectorAll('#form input')).reduce((acc, input) => ({ ...acc,[input.id]: input.value}), {})
+            let textareadata = Array.from(document.querySelectorAll('#form textarea')).reduce((acc, textarea) => ({ ...acc, [textarea.id]: textarea.innerHTML}), {})
+            let data = { ... inputdata, ... textareadata }
+            console.log(data)
+        }
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

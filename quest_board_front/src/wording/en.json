@@ -1,0 +1,259 @@
+{
+    "error":{
+        "wrongPassword":{
+            "title" : "Oops... typo ?",
+            "message" : "Wrong Login or Password"
+        }
+    },
+    "landingPage": {
+        "title": "Finding a job or an employee is an adventure",
+        "catchText": "Let us help you !",
+        "button": "Get started !",
+        "link": "Go in without sign-in"
+    },
+
+    "loginScreen": {
+        "title": "Happy to see you again !",
+        "button": "Let's go !",
+        "placeholder":{
+            "username": "Enter your email",
+            "password": "Enter your password"
+        }
+    },
+
+    "registerScreen":{
+        "title": {
+            "first": "Who are you ?",
+            "second": "Tell us more !",
+            "third": "How do you look like ?"
+        },
+
+        "placeholder": {
+            "firstname": "Enter your first name.",
+            "lastname": "Enter your last name.",
+            "email": "Enter your email.",
+            "password": "Enter your password",
+            "passwordConfirmation": "Reenter your password"
+        },
+
+        "avatar": {
+            "hair": {
+                "name": "topType",
+                "choice": [
+                    "No hair",
+                    "Long hair big hair",
+                    "Long hair bob",
+                    "Long hair bun",
+                    "Long hair curly",
+                    "Long hair curvy",
+                    "Long hair dreads",
+                    "Long hair fro",
+                    "Long hair fro band",
+                    "Long hair not too long",
+                    "Long hair mia wallace",
+                    "Long hair straight",
+                    "Long hair straight 2",
+                    "Long hair straight strand",
+                    "Short hair dreads 01",
+                    "Short hair dreads 02",
+                    "Short hair frizzle",
+                    "Short hair shaggy mullet",
+                    "Short hair short curly",
+                    "Short hair short flat",
+                    "Short hair short round",
+                    "Short hair short waved",
+                    "Short hair sides",
+                    "Short hair the caesar",
+                    "Short hair the caesar side part"
+                ]
+            },
+
+            "accessories": {
+                "name": "accessoriesType",
+                "choice": [
+                    "Blank",
+                    "Kurt",
+                    "Prescription 01",
+                    "Prescription 02",
+                    "Round",
+                    "Sunglasses",
+                    "Wayfarers"
+                ]
+            },
+
+            "hairColor": {
+                "name": "hairColor",
+                "choice": [
+                    "Auburn",
+                    "Black",
+                    "Blonde",
+                    "Blonde golden",
+                    "Brown",
+                    "Brown dark",
+                    "Pastel pink",
+                    "Blue",
+                    "Platinum",
+                    "Red",
+                    "Silver gray"
+                ]
+            },
+
+            "facialHair": {
+                "name": "facialHairType",
+                "choice": [
+                    "Blank",
+                    "Beard medium",
+                    "Beard light",
+                    "Beard majestic",
+                    "Moustache fancy",
+                    "Moustache magnum"
+                ]
+            },
+
+            "facialHairColor": {
+                "name": "facialHairColor",
+                "choice": [
+                    "Auburn",
+                    "Black",
+                    "Blonde",
+                    "Blonde golden",
+                    "Brown",
+                    "Brown dark",
+                    "Platinum",
+                    "Red"
+                ]
+            },
+
+            "clothes": {
+                "name":"clotheType",
+                "choice": [
+                    "Colar sweater",
+                    "Hoodie",
+                    "Overall",
+                    "Shirt crew neck",
+                    "Shirt scoop neck",
+                    "Shirt V neck"
+                ]
+            },
+
+            "colorFabric": {
+                "name":"clotheColor",
+                "choice": [
+                    "Black",
+                    "Blue 01",
+                    "Blue 02",
+                    "Blue 03",
+                    "Gray 01",
+                    "Gray 02",
+                    "Heather",
+                    "Pastel blue",
+                    "Pastel green",
+                    "Pastel orange",
+                    "Pastel red",
+                    "Pastel yellow",
+                    "Pink",
+                    "Red",
+                    "white"
+
+                ]
+            },
+
+            "eyes": {
+                "name":"eyeType",
+                "choice": [
+                    "Default",
+                    "Close",
+                    "Cry",
+                    "Dizzy",
+                    "EyeRoll",
+                    "Happy",
+                    "Hearts",
+                    "Side",
+                    "Squint",
+                    "Surprised",
+                    "Wink",
+                    "Wink wacky"
+                ]
+            },
+
+            "eyebrow": {
+                "name":"eyebrowType",
+                "choice": [
+                    "Default",
+                    "Angry",
+                    "Angry natural",
+                    "Default natural",
+                    "Flat natural",
+                    "Raised excited",
+                    "Raised excited natural",
+                    "Sad concerned",
+                    "Sad concerned natural",
+                    "Unibrow natural",
+                    "UpDown",
+                    "Updown natural"
+                ]
+            },
+
+            "mouth": {
+                "name":"mouthType",
+                "choice": [
+                    "Default",
+                    "Concerned",
+                    "Disbelief",
+                    "Eating",
+                    "Grimace",
+                    "Sad",
+                    "Scream open",
+                    "Serious",
+                    "Smile",
+                    "Tongue",
+                    "Twinkle",
+                    "Vomit"
+                ]
+            },
+
+            "skin": {
+                "name":"skinColor",
+                "choice": [
+                    "Tanned",
+                    "Yellow",
+                    "Pale",
+                    "Light",
+                    "Brown",
+                    "Dark brown",
+                    "Black"
+                ]
+            }
+        },
+
+        "alreadyRegistered": "I have already an acount !",
+
+        "boutton": "End my nightmare..."
+
+    },
+
+    "navbar": {
+        "searchbar": "Search a job !",
+        "quests": "Quest",
+        "guilds": "Guilds",
+        "profile": "profile",
+        "signin": "Sing in",
+        "logout": "Logout",
+        "login": "Login",
+        "register": "Register"
+    },
+
+    "apply": {
+        "message": "Send a message to the companie",
+        "apply": "Send !",
+        "button": "Apply",
+        "back": "back",
+
+        "placeholder": {
+            "firstname": "Enter your first name.",
+            "lastname": "Enter your last name.",
+            "email": "Enter your email.",
+            "message": "Send us a message."
+        }
+    }
+}
